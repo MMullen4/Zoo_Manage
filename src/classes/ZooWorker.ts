@@ -1,5 +1,7 @@
-// TODO: Have the ZooWorker class inherit Employee properties
-class ZooWorker {
+// the ZooWorker class inherits Employee properties
+import Employee from "./Employee.js";
+
+class ZooWorker extends Employee {
   constructor(
     name: string,
     id: number,
@@ -7,6 +9,7 @@ class ZooWorker {
     salary: number,
     private cleanUniform: boolean
   ) {
+    super(name, id, title, salary);
     this.cleanUniform = cleanUniform;
   }
 
