@@ -1,5 +1,5 @@
 import inquirer from 'inquirer';
-import type Animal from './Animal.js';
+import Animal from './Animal.js';
 import type Employee from './Employee.js';
 import type ZooAnimals from '../interfaces/ZooAnimals.js';
 import ZooKeeper from './ZooKeeper.js';
